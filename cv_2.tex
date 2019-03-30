@@ -1,0 +1,154 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Graduate Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[margin, 10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+
+\usepackage{helvet} % Default font is the helvetica postscript font
+%\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
+
+\setlength{\textwidth}{5.1in} % Text width of the document
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=false,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%----------------------------------------------------------------------------------------
+
+\moveleft.5\hoffset\centerline{\large\bf Babak Amin Azad} % Your name at the top
+ 
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
+ 
+%\moveleft.5\hoffset\centerline{1777 Chestnut Pl Unit NT-2006} % Your address
+%\moveleft.5\hoffset\centerline{Denver, CO 80202}
+%\moveleft.5\hoffset\centerline{(770) 401-6678}
+\moveleft.5\hoffset\centerline{baminazad@cs.stonybrook.edu}
+\vspace{0.1em}
+\moveleft.5\hoffset\centerline{\url{https://www.silverf0x00.com}}
+\vspace{0.1em}
+\moveleft.5\hoffset\centerline{\url{https://www.linkedin.com/in/babakaminazad}}
+
+%----------------------------------------------------------------------------------------
+
+\begin{resume}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE SECTION
+%----------------------------------------------------------------------------------------
+ 
+\section{INTRO}  
+
+I'm currently a PhD student at PragSec Lab, Stony Brook University. I work under supervision of Professor Nikiforakis. In a normal day, I try to uncover vulnerabilities and practices that makes the web unsafe place. More specifically my research goal is to make web applications safer, by reducing the attack surface through software debloating.
+In my latest work I show that we can remove up to 60\% of historical CVEs and reduce the size of a web application by 65\% while maintaining the required functionality, thus significantly reducing its attack surface. Second to that, I study the malicious bots on the internet and try to figure out ways to protect websites from their harm by fingerprinting the bots.
+
+%----------------------------------------------------------------------------------------
+%	Technology SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{TECHNICAL \\ SKILLS} 
+
+
+While I believe as a pentester and researcher in InfoSec community, it is less important what programming languages I know, I have a programming background as a web developer and these days in my daily job I use the following technologies:\\
+{\sl Operating Systems:} Linux, MacOS, Windows. \\
+{\sl Database Systems:} MySQL, MSSQL. \\
+{\sl Web Servers:} Apache, IIS. \\
+{\sl Programming Languages:} Python, JavaScript, PHP, C\#. \\
+{\sl Other:} Cloud Environments, Virtualization and Docker. \\
+{\sl Skills and Coursework:} Network Security, Cryptography, DataScience and Machine Learning, PKI (SSL/TLS), Web and Mobile Penetration Testing. \\
+ 
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+ 
+\section{EXPERIENCE}
+
+{\sl \textbf{Research Assistant (2nd Year PhD Student)}} \hfill August 2017 - Present \\
+State University of New York at Stony Brook, NY \\
+GPA: 3.9/4.0
+
+{\sl \textbf{Cyber Security Analyst, Incident Response Team}} \hfill August 2014 - 2016 \\
+Kashef  Banking  Security  Governance, Tehran, Iran\\
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item \textbf{Website Monitoring and Deface Detection Service:} In  this  project  an  application  was  developed  to  monitor  national  banks’  websites and  alert  the  CSIRT  team  if  a  downtime  or  a  deface  takes  place. Important features of this application includes: 
+    \begin{itemize} \itemsep -2pt % Reduce space between items
+        \item Monitoring Script addition to the  page
+        \item Monitoring redirection  to another  domain
+        \item Checking for addition of specific  words to pages
+        \item Checking for change in the HTML source of website greater than a predefined threshold
+        \item Monitoring DNS records status
+        \item Monitoring WHOIS entry changes and expiration
+        \item Integration with Qualy's SSL Labs to produce reports about SSL configuration.
+    \end{itemize}
+\end{itemize}
+
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item \textbf{Banking Websites’ SSL Configuration Report and Hardening Guide:} This  project  spanned  over  35  national  banks’  internet  banking  websites,  SSL protocol configuration of these sites was studied, factors like security against SSL vulnerabilities  (Heartbleed,  POODLE,  FREAK,  LogJam  etc.),  certificate  signature algorithm  and  cipher  suites  negotiated  with  clients  were  taken  into  consideration and  a  hardening  report  was  delivered  to  their  admins  to  address  the  issues.
+\end{itemize}
+
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item \textbf{Mobile Banking Software Security Report and Secure Android Development Guide:} The  android  version  of  mobile  banking  applications  of  35  national  banks  was studied,   features   like   secure   software   distribution,   frequent   updates,   tamper detection  and  integrity  verification,  secure  communication  channel  to  the  server, cryptographic  protocols,  insecure  data  storage  and  presence  of  source code protection  was tested,  during  this  study  several  high  impact  vulnerabilities  were  found  and reported.  Lastly,  a  secure  android  development  guide  was  produced  to  address common pitfalls in applications tested during this study.
+\end{itemize}
+
+{\sl \textbf{Freelance Web Developer}} \hfill 2013 - 2016\\
+Ontech Solutions ltd., United Kingdom (Remote)
+
+
+Our  task  at  Ontech  was  to  upgrade  a  legacy,  windows  based sector specific ERP software to a multi user, web based application, this was a web development  project  but  due  to  abundance  of     features  it  had,  the  design  and implementation of it was quite a challenge.
+
+
+
+%----------------------------------------------------------------------------------------
+%	COMMUNITY SERVICE SECTION
+%---------------------------------------------------------------------------------------- 
+
+\section{TALKS}
+
+\textbf{Penetration Testing Methods for Android Applications} \hfill November 2016\\
+1st Offseconf Conference, Khaje Nasir Toosi University
+
+\textbf{Ransomware Threats and Mitigation Techniques} \hfill January 2016 \\
+5th Annual Conference on E-Banking and Payment Systems
+
+\section{PUBLIC \\ SERVICE}
+
+External Reviewer for DIMVA 2019 Conference \hfill March 2019 \\
+
+%----------------------------------------------------------------------------------------
+%	EXTRA-CURRICULAR ACTIVITIES SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{EXTRA-CURRICULAR \\ ACTIVITIES} 
+
+%Kappa Sigma Fraternity, {\sl President} \hfill August 2014 - May 2015\\
+%Kappa Sigma Fraternity, {\sl Treasurer} \hfill December 2013 - August 2014 \\
+%Technology Student Association, {\sl Team Leader} \hfill August 2011 - May 2012 \\
+ 
+
+%----------------------------------------------------------------------------------------
+
+\end{resume}
+\end{document}
